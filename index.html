@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isha Gupta | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      color: #333;
+    }
+
+    nav {
+      background: #b30000;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h1 {
+      color: #fff;
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem 10%;
+      border-bottom: 1px solid #eee;
+    }
+
+    h2 {
+      color: #b30000;
+      margin-bottom: 1rem;
+    }
+
+    .about-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .about-section img {
+      max-width: 320px;
+      width: 100%;
+      border-radius: 10px;
+      border: 4px solid #b30000;
+    }
+
+    .about-text {
+      flex: 2;
+      min-width: 300px;
+    }
+
+    .skills-list, .interests-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill-item, .interest-item {
+      background: #f0f0f0;
+      padding: 8px 16px;
+      border-radius: 20px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .resume-btn {
+      display: inline-block;
+      background: #b30000;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    footer {
+      background: #b30000;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .education-section {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .education-section img {
+      width: 100%;
+      max-width: 350px;
+      height: 430px;
+      object-fit: cover;
+      object-position: top center;
+      border-radius: 10px;
+      border: 4px solid #b30000;
+    }
+
+    .education-text {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .about-section, .education-section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .education-text {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>Isha Gupta</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <div class="about-section">
+      <img src="WhatsApp Image 2025-07-19 at 18.01.28_57f4918e.jpg" alt="Isha Gupta">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          HIE , I am ISHA GUPTA an enthusiastic <strong>3rd-year BCA student</strong> at <strong>KCC Institute of Legal and Higher Education</strong> specializing in Computer Science and Information Technology.<br><br>
+          I’ve built a strong foundation in programming, data structures, algorithms, and web development. My studies focus on problem-solving and applied mathematics, aiming to merge technology with practical solutions.<br><br>
+          Beyond academics, I’ve been an active member of dance, fashion, and theatre society and also participated in multiple debate and declamation competitions. I was honored with the title "MISS ALL ROUNDER" in my college fresher event.<br><br> I'm always eager to learn new tools and deliver real-world solutions!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill-item">HTML, CSS, JavaScript</div>
+      <div class="skill-item">Java (Spring Boot, JDBC)</div>
+      <div class="skill-item">SQL, MySQL</div>
+      <div class="skill-item">Digital Marketing, SEO</div>
+      <div class="skill-item">Responsive Web Design</div>
+      <div class="skill-item">Time Management & Teamwork</div>
+    </div>
+    <br><br>
+    <h2>Interests</h2>
+    <div class="interests-list">
+      <div class="interest-item">Exploring latest technological trends</div>
+      <div class="interest-item">AI and Machine Learning</div>
+      <div class="interest-item">Debate and Declamation</div>
+      <div class="interest-item">Dance & Fashion</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Flight Booking System – Java backend with HTML/CSS/JS frontend</li>
+      <li>MCQ Quiz App – 50-question timer-based quiz app using Spring Boot</li>
+      <li>Currency Converter – Java-based GUI app</li>
+      <li>Spotify Clone – Web-based clone using HTML, CSS, JS</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-section">
+      <img src="WhatsApp Image 2025-07-20 at 20.07.14_ead3b833.jpg" alt="Isha Gupta Award">
+      <div class="education-text">
+        <h3>Carmel School – ICSE Board</h3>
+        <p><strong>10th Grade:</strong> 89%</p><br>
+
+        <h3>Carmel School – ISC Board</h3>
+        <p><strong>12th Grade:</strong> 79% | <strong>Subjects:</strong> Physics, Chemistry, Mathematics</p><br>
+
+        <h3>KCC Institute of Legal and Higher Education</h3>
+        <p><strong>Bachelor of Computer Applications (BCA)</strong><br>2022 – Present | <strong>Overall CGPA:</strong> 8.6</p>
+        <p>
+          Activities and Societies: Debate & Declamation, Dance, Fashion, Theatre<br><br>
+          I have built a strong foundation in data structures, algorithms, web development, and applied mathematics. My active participation in college events and technical projects like the Flight Booking System, Quiz App, and more have shaped me into a confident and well-rounded individual.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="Isha_Gupta_public resume.pdf" target="_blank" class="resume-btn">📄 View My Resume</a>
+  </section>
+
+  <section id="linkedin" style="padding-top: 2rem;">
+    <h2>More About Me</h2>
+    <p>
+      If you want to know more about my journey, certificates, and achievements,<br>
+      feel free to visit my <strong>LinkedIn profile</strong> below:
+    </p>
+    <a href="https://www.linkedin.com/in/isha-gupta-4ab825291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="resume-btn">
+      🔗 Visit My LinkedIn Profile
+    </a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> <a href="mailto:ishag8699@gmail.com">ishag8699@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+919000012345">+91 90000 12345</a></p>
+    <p><strong>Location:</strong> Delhi NCR, India</p>
+  </section>
+
+  <footer>
+    © 2025 Isha Gupta | All rights reserved
+  </footer>
+</body>
+</html>
